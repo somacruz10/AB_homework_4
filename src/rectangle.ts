@@ -1,6 +1,6 @@
 class Rectangle {
-    width: number
-    height: number
+    public Width: number
+    public Height: number
 
     constructor(width: number, height: number) {
         this.Width = width
@@ -8,7 +8,7 @@ class Rectangle {
     }
 
     getArea(): number {
-        return width * height
+        return this.Width * this.Height
     }
 }
 

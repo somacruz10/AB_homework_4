@@ -1,10 +1,10 @@
 class Person {
-    name: string
-    age: number
+    public Name: string
+    public Age: number
 
-    constructor(name: string, age: string) {
+    constructor(name: string, age: number) {
         this.Name = name
-        this.age = age
+        this.Age = age
     }
 
     getName(): string {
@@ -12,7 +12,7 @@ class Person {
     }
 
     getAge(): number {
-        return age
+        return this.Age
     }
 }
 
