@@ -1,18 +1,18 @@
 class Person {
-    public Name: string
-    public Age: number
+    public name: string
+    public age: number
 
     constructor(name: string, age: number) {
-        this.Name = name
-        this.Age = age
+        this.name = name
+        this.age = age
     }
 
     getName(): string {
-        return this.Name
+        return this.name
     }
 
     getAge(): number {
-        return this.Age
+        return this.age
     }
 }
 

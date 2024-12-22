@@ -1,12 +1,12 @@
 class BankAccount {
-    public Balance: number
+    public balance: number
 
     constructor(initialAmount: number) {
-        this.Balance = initialAmount
+        this.balance = initialAmount
     }
 
     deposit(amount: number): number {
-        return this.Balance += amount
+        return this.balance += amount
 
     }
 }

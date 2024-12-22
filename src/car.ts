@@ -1,15 +1,15 @@
 class Car {
-    public Brand: string
-    public Speed: number
+    public brand: string
+    public speed: number
 
     constructor(brand: string, speed: number) {
-        this.Brand = brand
-        this.Speed = speed
+        this.brand = brand
+        this.speed = speed
     }
 
     accelerate(): number {
-        this.Speed += 20
-        return this.Speed
+        this.speed += 20
+        return this.speed
     }
 }
 
