@@ -6,7 +6,7 @@ class BankAccount {
     }
 
     deposit(amount: number): number {
-        return this.Balance = this.Balance + amount
+        return this.Balance += amount
 
     }
 }

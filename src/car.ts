@@ -8,7 +8,7 @@ class Car {
     }
 
     accelerate(): number {
-        this.Speed = 20 + this.Speed
+        this.Speed += 20
         return this.Speed
     }
 }
